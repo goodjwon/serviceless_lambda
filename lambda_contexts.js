@@ -1,3 +1,5 @@
+const aws = require('aws-sdk');
+
 exports.handler = (event, context, callback) => {
     console.log('context use');
     console.log('value1=', event.key1)
